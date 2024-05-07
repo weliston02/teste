@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro de Compra - Streetwear</title>
+    <link rel="stylesheet" href="cadatroVLone.css">
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+</head>
+<body>
+    <div class="navbar-container">
+        <img id="nav_logo" class="logo" src= "https://i.pinimg.com/originals/a7/46/9b/a7469b73642263be54621fb69f9ac877.jpg"
+            alt="Logo da Vlone Store">
+        <div class="navbar">
+            <a href="VloneStore.html">Jhon Lennon Store</a>
+            <a href="vloneProdutos.html"><span class="material-symbols-outlined">
+                local_mall
+            </span></a>
+            </nav>
+        </div>
+    </div>
+
+    <br>
+    <br>
+    <br>
+    <br>
+
+    <div class="container">
+        <h1>Cadastro de Compra</h1>
+        <form>
+            <label for="nome">Nome:</label>
+            <input type="text" id="nome" name="nome" required>
+
+            <label for="email">E-mail:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="endereco">Endereço:</label>
+            <input type="text" id="endereco" name="endereco" required>
+
+            <label for="produto">Produto:</label>
+            <select id="produto" name="produto" required>
+                <option value="camiseta">Camiseta</option>
+                <option value="moletom">Moletom</option>
+                <option value="boné">Boné</option>
+            </select>
+
+            <label for="tamanho">Tamanho:</label>
+            <input type="text" id="tamanho" name="tamanho" required>
+
+            <label for="quantidade">Quantidade:</label>
+            <input type="number" id="quantidade" name="quantidade" min="1" required>
+
+            <a href="vloneProdutos.html"><input  type="submit"  value="Finalizar Compra"></a>
+        </form>
+    </div>
+
+</body>
+</html>
